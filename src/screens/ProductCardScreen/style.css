@@ -1,0 +1,11 @@
+.product-card-instance {
+  border-radius: unset !important;
+  overflow: unset !important;
+  width: unset !important;
+}
+
+.icon-instance-node-4 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}

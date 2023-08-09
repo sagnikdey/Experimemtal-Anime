@@ -1,0 +1,9 @@
+.image-placeholder {
+  background-image: url(https://generation-sessions.s3.amazonaws.com/da8900259a4a5d695aca57186f312591/img/imageplaceholder-2@2x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 8px;
+  height: 234px;
+  position: relative;
+  width: 336px;
+}

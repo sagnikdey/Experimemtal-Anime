@@ -1,0 +1,248 @@
+.button-small {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  position: relative;
+}
+
+.button-small .icon-wrapper-3 {
+  flex: 0 0 auto !important;
+}
+
+.button-small .instance-node-3 {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.button-small .text-wrapper {
+  flex: 1;
+  font-family: var(--type-set-button-700-font-family);
+  font-size: var(--type-set-button-700-font-size);
+  font-style: var(--type-set-button-700-font-style);
+  font-weight: var(--type-set-button-700-font-weight);
+  letter-spacing: var(--type-set-button-700-letter-spacing);
+  line-height: var(--type-set-button-700-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+}
+
+.button-small .c-button-text-2 {
+  flex: 1;
+  font-family: var(--type-set-button-700-font-family);
+  font-size: var(--type-set-button-700-font-size);
+  font-style: var(--type-set-button-700-font-style);
+  font-weight: var(--type-set-button-700-font-weight);
+  letter-spacing: var(--type-set-button-700-letter-spacing);
+  line-height: var(--type-set-button-700-line-height);
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+}
+
+.button-small .button-ring {
+  border: 2px solid;
+  border-color: var(--color-setinteractiveon-lightfocus);
+  border-radius: var(--primitives-radius-radius-sm);
+  height: 32px;
+  left: -4px;
+  position: absolute;
+  top: -4px;
+}
+
+.button-small.state-disabled {
+  border-radius: var(--primitives-radius-radius-sm);
+}
+
+.button-small.state-pressed {
+  border-radius: var(--primitives-radius-radius-sm);
+}
+
+.button-small.state-hover {
+  border-radius: var(--primitives-radius-radius-sm);
+}
+
+.button-small.outline {
+  border: 1px solid;
+  border-radius: var(--primitives-radius-radius-sm);
+}
+
+.button-small.ghost {
+  border-radius: var(--primitives-radius-radius-sm);
+}
+
+.button-small.state-focused {
+  border-radius: var(--primitives-radius-radius-sm);
+}
+
+.button-small.state-pressed.ghost {
+  background-color: #17328e1a;
+  padding: 8px 10px;
+  width: 125px;
+}
+
+.button-small.outline.state-default {
+  border-color: var(--tokens-border-border-brand);
+  padding: 8px 16px;
+  width: 137px;
+}
+
+.button-small.state-focused.ghost {
+  background-color: #2b52dd1a;
+  padding: 4px 6px;
+  width: 117px;
+}
+
+.button-small.state-pressed.fill {
+  background-color: var(--color-setinteractiveon-lightactive);
+  padding: 8px 16px;
+  width: 137px;
+}
+
+.button-small.outline.state-focused {
+  background-color: #2b52dd1a;
+  border-color: var(--color-setinteractiveon-lightfocus);
+  padding: 4px 12px;
+  width: 129px;
+}
+
+.button-small.fill.state-disabled {
+  background-color: var(--color-setinteractiveon-lightdisabled);
+  padding: 8px 16px;
+  width: 137px;
+}
+
+.button-small.ghost.state-disabled {
+  background-color: #d1d8e21a;
+  padding: 8px 10px;
+  width: 125px;
+}
+
+.button-small.state-hover.fill {
+  background-color: var(--color-setinteractiveon-lighthover);
+  padding: 8px 16px;
+  width: 137px;
+}
+
+.button-small.outline.state-pressed {
+  background-color: #17328e1a;
+  border-color: var(--color-setinteractiveon-lightactive);
+  padding: 8px 16px;
+  width: 137px;
+}
+
+.button-small.state-focused.fill {
+  background-color: var(--color-setinteractiveon-lightfocus);
+  padding: 4px 12px;
+  width: 129px;
+}
+
+.button-small.state-hover.ghost {
+  background-color: #1c3db21a;
+  padding: 8px 10px;
+  width: 125px;
+}
+
+.button-small.outline.state-disabled {
+  background-color: #d1d8e21a;
+  border-color: var(--color-setinteractiveon-lightdisabled);
+  padding: 8px 16px;
+  width: 137px;
+}
+
+.button-small.ghost.state-default {
+  padding: 8px 10px;
+  width: 125px;
+}
+
+.button-small.outline.state-hover {
+  background-color: #1c3db21a;
+  border-color: var(--tokens-border-border-brand-hover);
+  padding: 8px 16px;
+  width: 137px;
+}
+
+.button-small.state-default.fill {
+  background-color: var(--tokens-surface-surface-brand);
+  border-radius: var(--tokens-radius-radius-min);
+  padding: 8px 16px;
+  width: 137px;
+}
+
+.button-small.state-focused .text-wrapper {
+  color: var(--color-settypewhiteprimary);
+}
+
+.button-small.state-pressed.ghost .text-wrapper {
+  color: var(--color-setinteractiveon-lightactive);
+}
+
+.button-small.outline.state-default .text-wrapper {
+  color: var(--tokens-surface-surface-brand);
+}
+
+.button-small.state-pressed.fill .text-wrapper {
+  color: var(--color-settypewhiteprimary);
+}
+
+.button-small.fill.state-disabled .text-wrapper {
+  color: var(--color-settypewhiteprimary);
+}
+
+.button-small.ghost.state-disabled .text-wrapper {
+  color: var(--color-setinteractiveon-lightdisabled);
+}
+
+.button-small.state-hover.fill .text-wrapper {
+  color: var(--color-settypewhiteprimary);
+}
+
+.button-small.outline.state-pressed .text-wrapper {
+  color: var(--color-setinteractiveon-lightactive);
+}
+
+.button-small.state-hover.ghost .text-wrapper {
+  color: var(--color-setinteractiveon-lighthover);
+}
+
+.button-small.outline.state-disabled .text-wrapper {
+  color: var(--color-setinteractiveon-lightdisabled);
+}
+
+.button-small.ghost.state-default .text-wrapper {
+  color: var(--color-setinteractiveon-lightdefault);
+}
+
+.button-small.outline.state-hover .text-wrapper {
+  color: var(--tokens-surface-surface-brand-hover);
+}
+
+.button-small.state-default.fill .text-wrapper {
+  color: var(--tokens-text-text-invert);
+}
+
+.button-small.outline .c-button-text-2 {
+  color: var(--color-setinteractiveon-lightfocus);
+}
+
+.button-small.ghost .c-button-text-2 {
+  color: var(--color-setinteractiveon-lightfocus);
+}
+
+.button-small.fill .c-button-text-2 {
+  color: var(--color-settypewhiteprimary);
+}
+
+.button-small.outline .button-ring {
+  width: 137px;
+}
+
+.button-small.ghost .button-ring {
+  width: 125px;
+}
+
+.button-small.fill .button-ring {
+  width: 137px;
+}

@@ -1,0 +1,17 @@
+.scroll-bar {
+  align-items: center;
+  background-color: var(--tokens-surface-surface-secondary);
+  border-radius: 4px;
+  display: flex;
+  padding: 0px 0px 0px 48px;
+  position: relative;
+  width: 176px;
+}
+
+.scroll-bar .div {
+  background-color: var(--tokens-border-border-secondary);
+  border-radius: 8px;
+  height: 4px;
+  position: relative;
+  width: 22px;
+}

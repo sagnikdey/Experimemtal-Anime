@@ -1,0 +1,11 @@
+.style-filled-wrapper {
+  align-items: flex-start;
+  display: inline-flex;
+  position: relative;
+}
+
+.style-filled-wrapper .instance-node {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}

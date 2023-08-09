@@ -1,0 +1,12 @@
+.icon-wrapper {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  position: relative;
+}
+
+.icon-wrapper .stop-circle {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}

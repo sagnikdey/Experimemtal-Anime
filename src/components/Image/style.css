@@ -1,0 +1,84 @@
+.image {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.image .frame {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  padding: 8px var(--tokens-spacing-spacing-md) 8px var(--tokens-spacing-spacing-md);
+  position: relative;
+  width: 100%;
+}
+
+.image .scroll-bar-instance {
+  flex: 1 !important;
+  flex-grow: 1 !important;
+  width: unset !important;
+}
+
+.image .tag-instance {
+  background-color: var(--tokens-surface-surface-brand) !important;
+  border-radius: 0px 4px 4px 0px !important;
+  flex: 0 0 auto !important;
+}
+
+.image .tag-2 {
+  color: var(--tokens-text-text-invert) !important;
+}
+
+.image .frame-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: var(--tokens-spacing-spacing-sm);
+  left: 265px;
+  position: absolute;
+  top: 8px;
+}
+
+.image .icon-wrapper-2 {
+  flex: 0 0 auto !important;
+}
+
+.image .frame-3 {
+  align-items: center;
+  background-color: var(--tokens-surface-surface-invert);
+  display: flex;
+  height: 41px;
+  justify-content: space-between;
+  left: 0;
+  opacity: 0.3;
+  padding: 0px var(--tokens-spacing-spacing-sm) 0px var(--tokens-spacing-spacing-sm);
+  position: absolute;
+  top: 0;
+  width: 430px;
+}
+
+.image .frame-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.image .instance-node-2 {
+  height: 24px !important;
+  position: relative !important;
+  width: 24px !important;
+}
+
+.image.productpage {
+  height: 304px;
+  width: 430px;
+}
+
+.image.default {
+  height: 240px;
+  width: 328px;
+}

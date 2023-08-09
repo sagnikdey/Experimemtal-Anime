@@ -1,0 +1,99 @@
+.input-field {
+  align-items: center;
+  border: 1px solid;
+  border-radius: 4px;
+  display: flex;
+  gap: 8px;
+  padding: 12px 16px;
+  position: relative;
+  width: 400px;
+}
+
+.input-field .icon-wrapper-5 {
+  flex: 0 0 auto !important;
+}
+
+.input-field .l-text-4 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  position: relative;
+}
+
+.input-field .text {
+  font-family: var(--type-set-paragraph-2-400-font-family);
+  font-size: var(--type-set-paragraph-2-400-font-size);
+  font-style: var(--type-set-paragraph-2-400-font-style);
+  font-weight: var(--type-set-paragraph-2-400-font-weight);
+  letter-spacing: var(--type-set-paragraph-2-400-letter-spacing);
+  line-height: var(--type-set-paragraph-2-400-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.input-field .caret {
+  height: 16px;
+  position: relative;
+  width: 1px;
+}
+
+.input-field .icon-instance-node-3 {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.input-field.state-1-disabled {
+  background-color: var(--tokens-surface-surface-secondary);
+  border-color: var(--tokens-border-border-secondary);
+}
+
+.input-field.state-1-focused {
+  background-color: var(--tokens-surface-surface-primary);
+  border-color: var(--tokens-border-border-brand);
+}
+
+.input-field.state-1-default {
+  background-color: var(--tokens-surface-surface-primary);
+  border-color: var(--tokens-border-border-primary);
+}
+
+.input-field.state-1-hover {
+  background-color: var(--tokens-surface-surface-primary);
+  border-color: var(--tokens-border-border-brand);
+}
+
+.input-field.state-1-disabled .text {
+  color: var(--tokens-text-text-secondary);
+}
+
+.input-field.state-1-focused .text {
+  color: var(--tokens-text-text-primary);
+}
+
+.input-field.state-1-default .text {
+  color: var(--tokens-text-text-primary);
+}
+
+.input-field.state-1-hover .text {
+  color: var(--color-settypeblackprimary);
+}
+
+.input-field.state-1-disabled .caret {
+  background-color: var(--tokens-text-text-secondary);
+}
+
+.input-field.state-1-focused .caret {
+  background-color: var(--tokens-text-text-primary);
+}
+
+.input-field.state-1-default .caret {
+  background-color: var(--tokens-text-text-primary);
+}
+
+.input-field.state-1-hover .caret {
+  background-color: var(--color-settypeblacksecondary);
+}
